@@ -14,5 +14,22 @@ tindakan pencegahan yang sesuai untuk mempertahankan pelanggan tersebut.
 digunakan untuk membangun model prediksi churn.
 - Evaluasi Model: Proses evaluasi model melibatkan metrik seperti presisi, recall, dan F2-score untuk mengukur kinerja model.
 
+## **Pemahaman tentang dataset yang digunakan**
+Dataset yang digunakan terdiri dari 11 kolom yang memuat informasi yang terkait dengan perilaku pelanggan.
+
+|Nama Kolom| Deskripsi|
+|-----------|------|
+|Dependents|Pelanggan memiliki tanggungan atau tidak|
+|tenure|Jumlah bulan berlangganan|
+|OnlineSecurity|Pelanggan berlangganan online security atau tidak <br>(yes, no, no internet service)|
+|OnlineBackup|Pelanggan berlangganan online backup atau tidak <br>(yes, no, no internet service)|
+|InternetService|Pelanggan berlangganan internet service atau tidak<br> (yes, no)|
+|DeviceProtection|Pelanggan berlangganan device protection atau tidak <br>(yes, no, no internet service)|
+|TechSupport|Pelanggan berlangganan tech support atau tidak<br>(yes, no, no internet service)|
+|Contract|Tipe kontrak yang digunakan berdasarkan durasi<br>(month-to-month, two year, dan one year)|
+|PaperlessBilling|Bentuk tagihan yang digunakan dalam bentuk paperless atau tidak <br>(yes, no)|
+|MonthlyCharges|Jumlah tagihan setiap bulan|
+|Churn|Pelanggan berpindah ke pesaing atau tidak <br>(yes, no)|
+
 ## **Final model**
 Model terbaik yang digunakan dalam prediksi ini dapat dilihat [di sini](https://github.com/yanacunanda/customerchurnpredictionintelecommunicationcompany/blob/main/TelcoCustumerChurn_ADBmodel.sav)
